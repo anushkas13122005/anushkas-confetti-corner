@@ -35,14 +35,21 @@ A festive birthday-card helper web page that creates funny, personalized card me
 
 Open the HTML file directly in a browser, or serve it locally:
 
-```bash
-python -m http.server 4173 --bind 127.0.0.1 --directory outputs
+[```bash
+python -m http.server 4173 --bind 127.0.0.1 --directory outputs]
+cd "/c/Users/anush/Documents/Codex/2026-06-08/create-a-web-page-to-help/outputs"
+git init
+git add index.html README.md
+git commit -m "Add Anushka's Confetti Corner"
+git branch -M main
+git remote add origin https://github.com/anushkas13122005/anushkas-confetti-corner.git
+git push -u origin main
 ```
 
 Then open:
 
 ```text
-http://127.0.0.1:4173/birthday-card-helper.html
+https://anushkas13122005.github.io/anushkas-confetti-corner/
 ```
 
 ## GitHub Profile Link
